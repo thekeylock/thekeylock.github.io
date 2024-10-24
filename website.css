@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #ff8c00;
+}
+
+.navbar {
+    background-color: 	#5f668c;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.navbar ul {
+    margin: auto;
+    width: fit-content;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: 	#5f668c;
+}
+
+.navbar li {
+    float: left;
+    border:1px solid #5f668c;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: 	#6f77a3;
+}
+
+.active {
+    background-color: 	#4b506e;
+}
+
+.hobbycontainer {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbylist {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hobbylist li {
+    display: inline;
+    float: left;
+    width: 33%;
+    border: 10px, solid, #4b506e;
+    border: 10px;
+}
+
+.hobbylist img {
+    width: 100%;
+    height: auto;
+}
+
+.hometext{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mapcontainer {
+    margin-top: 50%;
+}
