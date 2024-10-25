@@ -6,6 +6,6 @@ function showaboutme() {
     }
     else{
         document.getElementById("aboutmetext").innerText = "Wrong!"
-        document.getElementById("aboutmetext").style.display = block;
+        document.getElementById("aboutmetext").style.display = "block";
     }
 }
