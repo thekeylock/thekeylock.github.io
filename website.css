@@ -80,7 +80,7 @@ body {
 .aboutmetext {
     text-align: center;
     margin-top: 50px;
-    color: #ff8c00;
+    display: none;
 }
 
 .mapcontainer {
