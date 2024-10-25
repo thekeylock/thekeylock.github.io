@@ -1,6 +1,6 @@
 function showaboutme() {
     var input = document.getElementById("aboutmeinput").value;
-    if(input == "showtext")
+    if(input == "show")
     {
        document.getElementById("aboutmetext").style.display = block; 
     }
