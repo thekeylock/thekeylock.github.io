@@ -1,6 +1,10 @@
 function showaboutme() {
-    if(aboutmeinput == "showtext")
+    var input = document.getElementById("aboutmeinput").value;
+    if(input == "showtext")
     {
        document.getElementById("aboutmetext").style.display = block; 
+    }
+    else{
+        document.getElementById("aboutmetext").innerText = "Wrong!"
     }
 }
