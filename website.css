@@ -72,9 +72,15 @@ body {
     height: auto;
 }
 
-.hometext{
+.hometext {
     text-align: center;
     margin-top: 50px;
+}
+
+.aboutmetext {
+    text-align: center;
+    margin-top: 50px;
+    font-style: none;
 }
 
 .mapcontainer {
