@@ -1,11 +1,11 @@
 function showaboutme() {
     var input = document.getElementById("aboutmeinput").value;
-    if(input == "show")
-    {
-       document.getElementById("aboutmetext").style.display = "block"; 
-    }
-    else{
-        document.getElementById("aboutmetext").innerText = "Wrong!"
-        document.getElementById("aboutmetext").style.display = "block";
+    var aboutMeText = document.getElementById("aboutmetext");
+
+    if (input === "show") {
+        aboutMeText.style.display = "block"; 
+    } else {
+        aboutMeText.innerText = "Wrong!";
+        aboutMeText.style.display = "block";
     }
 }
